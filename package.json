@@ -1,0 +1,11 @@
+{
+  "name": "google-places",
+  "version": "1.0.0",
+  "description": "Google Places API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andres Castillo",
+  "license": "ISC"
+}
