@@ -1,10 +1,9 @@
-# Google Places Extractor
+# Google Places Web Service
 
-Extract and filter data from Google Places API
+Extract and filter data from Google Places API (Google Maps):
 
-* Query by type.
-* Query by zone and radius.
-* Filter by price range.
-* Filter by stars and recommendations.
-* Easier to use API.
-* Get social media data. 
+* Find a place from a text search.
+* Find further place details.
+* Find place(s) with nearby search feature.
+* Find place(s) with text search feature.
+
