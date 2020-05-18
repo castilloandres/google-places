@@ -9,7 +9,8 @@
     "mocha": "mocha -R spec ./test",
     "fix": "semistandard --fix",
     "text-search": "node -e 'require(\"./src/index\").textSearch()'",
-    "nearby-search": "node -e 'require(\"./src/index\").nearbySearch()'"
+    "nearby-search": "node -e 'require(\"./src/index\").nearbySearch()'",
+    "place-details": "node -e 'require(\"./src/index\").placeDetails()'"
   },
   "author": "Andres Castillo Hormaechea",
   "license": "ISC",
