@@ -4,8 +4,13 @@
   "description": "Google Places API",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "text-search": "node -e 'require(\"./src/index\").textSearch()'"
   },
-  "author": "Andres Castillo",
-  "license": "ISC"
+  "author": "Andres Castillo Hormaechea",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
 }
