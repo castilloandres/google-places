@@ -1,16 +1,26 @@
 {
   "name": "google-places",
   "version": "1.0.0",
-  "description": "Google Places API",
+  "description": "Google Places API Web Service",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "text-search": "node -e 'require(\"./src/index\").textSearch()'"
+    "test": "npm run lint && nyc npm run mocha",
+    "lint": "semistandard --verbose | snazzy",
+    "mocha": "mocha -R spec ./test",
+    "fix": "semistandard --fix",
+    "text-search": "node -e 'require(\"./src/index\").textSearch()'",
+    "nearby-search": "node -e 'require(\"./src/index\").nearbySearch()'"
   },
   "author": "Andres Castillo Hormaechea",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "lint": "^0.7.0",
+    "nyc": "^15.0.1",
+    "semistandard": "^14.2.0",
+    "snazzy": "^8.0.0"
   }
 }
