@@ -19,7 +19,7 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "lint": "^0.7.0",
+    "lint": "^0.8.8",
     "nyc": "^15.0.1",
     "semistandard": "^14.2.0",
     "snazzy": "^8.0.0"
